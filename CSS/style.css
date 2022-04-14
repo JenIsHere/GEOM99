@@ -118,7 +118,7 @@ li a{
 
 #map {
     height: 1200px;
-    width: 1200px;
+    width: 100%;
 }
 /* about us page code */
 .bghead {
