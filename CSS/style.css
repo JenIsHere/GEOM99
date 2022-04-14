@@ -106,3 +106,64 @@ li a{
 	font-style: italic;
 	text-align: center;
 }
+
+/* about us page code */
+.bghead {
+    text-align: center;
+    background-color:#f1f1f1!important;
+    padding-bottom: 7px;
+}
+.bgimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: 40%;
+}
+.grid {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 16px;
+    display: flex;
+}
+.grid2 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 16px;
+    color:#000!important;
+    background-color:#f1f1f1!important;
+    display: flex;
+}
+.gridcontent {
+    text-align: left;
+    flex: 100%;
+}
+
+.textcolor{
+    color:#757575!important
+}
+.propic {
+    right: 600px;
+}
+.propic1 {
+    left: 150px;
+    flex: 0%;
+    padding-right: 1%;
+}
+.profilepic {
+    left: 150px;
+    flex: 0%;
+    padding-right: 1%;
+}
+.Disclaimer {
+    color: white;
+    flex:60%;
+    font-size: 15px;
+    background-color: #333;
+    text-align: center;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(3, 3, 3);
+}
