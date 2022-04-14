@@ -1,5 +1,14 @@
+body {
+	background-color:white;
+	font-size: 18px;
+	margin:0;
+	padding:0;
+	color: black;
+	font-family: 'Montserrat', arial, helvetica, sans-serif;
+}
+
 .header{
-	background-image: url(Images\Highway_401_Greenbelt.jpg);
+	background-image: url(Images/Highway_401_Greenbelt.jpg);
 	background-size: cover;
 	background-position-y: 73%;
 	margin:0;
@@ -78,10 +87,10 @@ li a{
 	font-size:20px;
 }
 
-.projdesc{
+/* .projdesc{
 	text-align: justify;
 	font-size:20px;
-}
+} */
 
 .text1{
 	font-size:22px;	
@@ -101,12 +110,11 @@ li a{
 	font-size:18px;
 }
 
-.projectimagesubtext {
+/* .projectimagesubtext {
 	font-size: 14px;
 	font-style: italic;
 	text-align: center;
-}
-
+} */
 /* about us page code */
 .bghead {
     text-align: center;
