@@ -125,7 +125,7 @@ map {
 /* about us page code */
 .bghead {
     text-align: center;
-    background-color:#f1f1f1!important;
+    background-color:#f1f1f1;
     padding-bottom: 7px;
 }
 .bgimage {
@@ -145,8 +145,8 @@ map {
     padding-top: 64px;
     padding-bottom: 64px;
     padding-left: 16px;
-    color:#000!important;
-    background-color:#f1f1f1!important;
+    color:#000;
+    background-color:#f1f1f1;
     display: flex;
 }
 .gridcontent {
@@ -154,7 +154,7 @@ map {
     flex: 100%;
 }
 .textcolor{
-    color:#757575!important
+    color:#757575
 }
 .propic {
     right: 600px;
