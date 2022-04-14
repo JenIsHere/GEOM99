@@ -5,7 +5,8 @@ var contestedAreas = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [43.860853, -79.772975]
-            },            
+            },  
+            "type" : "Feature"          
         },
         {
             "geometry": {
