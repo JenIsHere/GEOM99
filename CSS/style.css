@@ -1,0 +1,98 @@
+.navbar{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	top:0;	
+	overflow: hidden;
+	background-color: #084594;
+	position: sticky;
+	display:flex;
+	justify-content: center;
+}
+
+li {
+	float:left;
+	text-align:center;
+}
+
+li a{
+	display: inline-block;
+	color:white;
+	text-decoration: none;
+	width: 25vw;
+	margin: 0;
+	padding: 15px 0px;
+	letter-spacing: 1px;
+	flex: 1;
+}
+.title1 {
+	font-size: 30px;
+	color:#000000
+}
+
+.title2{
+	font-weight:bold;
+	font-size:20px;
+	color:#009999;
+	margin-top: 5px;
+	margin-bottom:0px;
+}
+
+.title3 {
+	width:60%;
+	margin: auto;
+	font-size: 30px;
+	color:#000000
+}
+
+.title4 {
+	font-size:20pt;
+	color:#000000
+}
+
+@media only screen and (max-width: 500px) {
+	.title3 {
+		width:80%;
+		margin: auto;
+		font-size: 30px;
+	}
+}
+
+.generalText{
+	margin-top: 0;
+	text-align: justify;
+}
+
+.homeSubHead{
+	font-weight:bold;
+	font-size:20px;
+}
+
+.projdesc{
+	text-align: justify;
+	font-size:20px;
+}
+
+.text1{
+	font-size:22px;	
+    text-align: justify;
+}
+.text2{
+    font-size:18px;	
+	text-align: justify;
+}
+
+.text3{
+    font-size:16px;	
+	text-align: justify;
+}
+
+.text4{
+	font-size:18px;
+}
+
+.projectimagesubtext {
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
+}
