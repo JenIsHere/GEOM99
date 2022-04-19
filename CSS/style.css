@@ -22,8 +22,8 @@ body {
 	top:0;	
 	overflow: hidden;
 	background-color: #08940f;
-	position: sticky;
-	display:flex;
+	position: inline;
+	display: flex;
 	justify-content: center;
 }
 
@@ -116,9 +116,10 @@ li a{
 	text-align: center;
 } */
 
-#map {
-    height: 1200px;
+.map {
+    height: 1000px;
     width: 100%;
+	display: inline-block;
 }
 /* about us page code */
 .bghead {
