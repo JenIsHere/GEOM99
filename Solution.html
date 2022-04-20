@@ -59,41 +59,15 @@
   var Talims = L.marker([44.401268, -80.539397]).addTo(map)
   .bindPopup('<b>Talims Resort</b><br />Info.')
 
-var contestedAreaMark = L.geoJSON(contestedAreas, {
-
-style: function (feature) {
-  return feature.properties && feature.properties.style;
-},
-
-pointToLayer: function (feature, latlng) {
-  return L.circleMarker(latlng, {
-    radius: 8,
-    fillColor: '#ff7800',
-    color: '#000',
-    weight: 1,
-    opacity: 1,
-    fillOpacity: 0.8
-  });
-}
-}).addTo(map);
-
-var contestedAreaPoly = L.geoJSON(airport, {
+var contestedAreaLayer = L.geoJSON([airport,orbit,york], {
 
   style: function (feature) {
     return feature.properties && feature.properties.style;
   },
 
-  pointToLayer: function (feature, latlng) {
-    return L.circleMarker(latlng, {
-      radius: 8,
-      fillColor: '#ff7800',
-      color: '#000',
-      weight: 1,
-      opacity: 1,
-      fillOpacity: 0.8
-    });
-  }
+
 }).addTo(map);
+
 </script>
 
 </body>
