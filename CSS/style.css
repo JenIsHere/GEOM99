@@ -128,11 +128,6 @@ li a:hover {
 	font-size:20px;
 }
 
-/* .projdesc{
-	text-align: justify;
-	font-size:20px;
-} */
-
 .text1{
 	font-size:22px;	
     text-align: justify;
@@ -160,11 +155,6 @@ li a:hover {
 	position: sticky;
 	justify-content: center;
 }
-/* .projectimagesubtext {
-	font-size: 14px;
-	font-style: italic;
-	text-align: center;
-} */
 
 #map {
     height: 1200px;
@@ -217,11 +207,16 @@ li a:hover {
     flex: 0%;
     padding-right: 1%;
 }
+#cpic{
+	height: 150px;
+	width: 150px;
+}
 .profilepic {
     left: 150px;
     flex: 0%;
     padding-right: 1%;
 }
+
 .Disclaimer {
     color: white;
     flex:60%;
