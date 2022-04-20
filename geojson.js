@@ -4,61 +4,104 @@ var contestedAreas = {
         {
             "geometry": {
                 "type": "Point",
-                "coordinates": [43.860853, -79.772975]
+                "coordinates": [43.922268, -79.139146]
             },  
-            "type" : "Feature"          
+            "type" : "Feature",
+            "id": 1,
+            "name": "Pickering Airport",
+            "properties": {"popupContent": ""},        
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [43.860832, -79.772953]
+            },
+            "type" : "Feature",
+            "id": 2,
+            "name": "413 Highway Expansion",
+            "properties": {"popupContent": ""},            
         },
         {
             "geometry": {
                 "type": "Point",
                 "coordinates": [43.77503, -80.070094]
-            },           
+            },
+            "type": "Feature",
+            "id": 3,
+            "name": "Erin Waste Treatment Plant",
+            "properties": {"popupContent": ""},
         },
         {
             "geometry": {
                 "type": "Point",
-                "coordinates": [44.40131, -80.539501]
+                "coordinates": [44.150975, -78.446997]
             },
             "type": "Feature",
+            "id": 4,
+            "name": "Milbrook",
             "properties": {"popupContent": ""},
-            "id": 3
         },
         {
             "geometry": {
                 "type": "Point",
-                "coordinates": [44.046453, -79.538502]
+                "coordinates": [44.284659, -79.570779]
             },
             "type": "Feature",
+            "id": 5,
+            "name": "The Orbit Innisfill",
             "properties": {"popupContent": ""},
-            "id": 4
         },
         {
             "geometry": {
                 "type": "Point",
-                "coordinates": [44.102488, -79.478975]
+                "coordinates": [44.102477, -79.47897]
             },
             "type": "Feature",
+            "id": 6,
+            "name": "Upper York Sewage Solution",
             "properties": {"popupContent": ""},
-            "id": 5
         },
         {
             "geometry": {
                 "type": "Point",
-                "coordinates": [44.284664, -79.570783]
+                "coordinates": [44.046421, -79.538518]
             },
             "type": "Feature",
+            "id": 7,
+            "name": "Bradford Bypass",
             "properties": {"popupContent": ""},
-            "id": 6
         },
         {
             "geometry": {
                 "type": "Point",
-                "coordinates": [43.996386, -79.17557]
+                "coordinates": [43.957171, -79.051567]
             },
             "type": "Feature",
+            "id": 8,
+            "name": "Verain",
             "properties": {"popupContent": ""},
-            "id": 7
-        }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [43.1938, -79.763559]
+            },
+            "type": "Feature",
+            "id": 9,
+            "name": "Hamiliton Urban Expansion",
+            "properties": {"popupContent": ""},
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [44.401268, -80.539397]
+            },
+            "type": "Feature",
+            "id": 10,
+            "name": "Talims Resort",
+            "properties": {"popupContent": ""},
+        },
+        
     ]
 };
 var airport = {
