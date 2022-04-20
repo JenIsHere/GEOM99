@@ -26,6 +26,17 @@ body {
 	display:flex;
 	justify-content: center;
 }
+.navbar2{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	top:0;	
+	overflow: hidden;
+	background-color: #08940f;
+	position: absolute;
+	display:flex;
+	justify-content: center;
+}
 
 li {
 	float:left;
