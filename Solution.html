@@ -48,7 +48,7 @@ accessToken: "pk.eyJ1IjoiY2NoYXBwZWxsZmxlbWluZyIsImEiOiJjbDFtazRybmQwMTNqM2RvM3A
 }).addTo(map);
 
 var PickeringAirport = L.marker([43.9808, -79.1451]).addTo(map)
-.bindPopup("<b>Pickering Airport</b><br />The Pickering Airport Lands were expropriated in 1972 by the Government of Canada with the intention of building a second international airport to serve the city of Toronto, its metropolitan area, and the surrounding region known as the Golden Horseshoe in Ontario, Canada.")
+.bindPopup("<b>Pickering Airport</b><br /><img  class='popupimage' src='Images/pickering-airport.jpeg'></img><br />The Pickering Airport Lands were expropriated in 1972 by the Government of Canada with the intention of building a second international airport to serve the city of Toronto, its metropolitan area, and the surrounding region known as the Golden Horseshoe in Ontario, Canada.")
 .on('click',function(e){map.setView(e.latlng, 12);});
 var Highway = L.marker([43.7875, -79.8422]).addTo(map)
 .bindPopup("<b>413 Highway Expansion</b><br />It’s a proposed four to six-lane highway backed by the Ford government that would provide a new 59-kilometer-long transit corridor from Highway 400 in Vaughan to the intersection of the 407 and the 401 at the Mississauga/Brampton border. ")
@@ -78,7 +78,7 @@ var Talims = L.marker([ 44.3969, -80.5393]).addTo(map)
 .bindPopup('<b>Talims Resort</b><br />Info.')
 .on('click',function(e){map.setView(e.latlng, 14);});
 
-var ContestedAreas = L.geoJSON([airport, highway, erin, orbit, york, bypass, verain, hamilton, talims,rouge], {
+var ContestedAreas = L.geoJSON([airport, highway, erin, orbit, york, bypass, verain, hamilton, talims, rouge], {
   style: function (feature) {
     return feature.properties && feature.properties.style;
   },

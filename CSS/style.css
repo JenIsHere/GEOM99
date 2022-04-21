@@ -211,6 +211,9 @@ li a:hover {
 	height: 150px;
 	width: 150px;
 }
+.popupimage{
+	max-width: 301px;
+}
 .profilepic {
     left: 150px;
     flex: 0%;
