@@ -8,7 +8,7 @@ body {
 }
 
 .header{
-	background-image: url(/GEOM99/Images/Greenbelt.jpg);
+	background-image: url(Greenbelt.jpg);
 	background-size: cover;
 	background-position-y: 70%;
 	margin:0;
