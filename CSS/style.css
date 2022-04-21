@@ -8,7 +8,7 @@ body {
 }
 
 .header{
-	background-image: url(https://github.com/JenIsHere/WebComm/blob/main/Images/Greenbelt.jpg?raw=true);
+	background-image: url(Images/Greenbelt.jpg);
 	background-size: cover;
 	background-position-y: 70%;
 	margin:0;
