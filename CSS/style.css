@@ -242,3 +242,8 @@ li a:hover {
 	margin-bottom: 0;
 	padding: 1vw;
 }
+.methimg {
+	width:60vw;
+	height:100%;
+	text-align: center;
+}
