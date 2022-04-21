@@ -157,10 +157,10 @@ li a:hover {
 }
 
 #map {
-    height: 1200px;
+    height: 1000px;
     width:80%;
 	text-align: center;
-	margin-bottom: 5vw;
+	margin-bottom: 1vw;
 	margin-left: 10vw;
 	margin-right: 10vw;
 }
