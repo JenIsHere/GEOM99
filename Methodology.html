@@ -29,13 +29,12 @@
   <div class="gridcontent">
     <p class="generalText">Producing a satisfactory solution to any problem requires planning, proper research and effective implementation of skills and knowledge of various software learned along the way. Team JPC's methodoly is expanded upon in the topics below.</p>
 
-  <ul class="list">
+  <!-- <ul class="list">
     <li><a href="#Data Collection and Research">Data Collection and Research</a></li>
     <li><a href="#Creating a Basemap">Creating a Basemap in Mapbox</a></li>
     <li><a href="#Digitizing">Digitizing the Hotspot Areas</a></li>
     <li><a href="#Interactive Web Visualization">Interactive Web Visualization</a></li>
-    <li><a href="#Documentation">Documentation</a></li>
-  </ul>  
+  </ul>   -->
   </div>
 </div>
 
@@ -99,16 +98,34 @@
 
 <div class="grid2">
   <div class="gridcontent">
-    <h1 class="homeSubHead" id="Interactive Web Visualization">Interactive Web and Static Map Visualization</h1>
-    <p class="generalText" id="Static Map Visualization">The Visualization phases of our project will be ongoing throughout the delivery of the final solutions. Our client has requested a visualization of the study area to be used as a tool to raise public awareness. We will look to meet this deliverable by providing an interactive web map as well as a supporting static map. The interactive web map will be developed using open-source technology and be delivered as a website that can be linked or embedded directly to their organization’s website. The interactive map will aim to tell a story, visualizing the results of our analysis as well as the additional information gathered through research of key metrics and the impacts of urban sprawl on the Greater Golden Horseshoe Area.  The interactive web map will be developed in stages along other key elements of the analysis. First creating the host webpage, incorporating base layers, then moving to including the results of our analysis as interactive layers and completing the story by adding in the additional information found from research and our analysis. The purpose of the static map is to provide an appealing, all-encompassing view of the study area to be viewed offline. Our client has identified this deliverable as beneficial to include in presentations or shared as part of future documentation to reach a wider audience.</p>
+    <h1 class="homeSubHead" id="Interactive Web Visualization">Interactive Web Map</h1>
+    <p class="generalText">To combine the collected data, newly created base map and the digitized hot spots, we utilized LeafletJS. To initiate Leaflet within our code and before bringing in a map, we needed to include both the Leaflet CSS file and the Leaflet Java Script references to the document.</p>
+    <p class="generalText">The map set up only includes a few simple steps. First the creation of a map div element, then for a variable 'map' setting the view and zoom level for the initial display. Incorporating the base map is done through initializing a tile layer, in this case our MapBox base map, specifying the tile size and providing an access token.</p>
+    <div>
+      <img class="methimg" src="Images/s1.jpg" alt="Initializing Basemap">
+    </div>
+    <p class="generalText">To visualize our digitized hotspots we utilized GeoJSON as well as LeafletJS. A GeoJSON document was created and properly referenced within our solutions HTML page. Each hotspot was assigned to a variable, specifying it's properties, style, type, and coordinates. Those variables were then added to the map to visualize the areas.</p>
+    <div>
+      <img class="methimg" src="Images/s2.JPG" alt="GeoJSON">
+    </div>
+    <p class="generalText">To add detailed information for each hot spot we utilized Markers and Popups. Each marker was assigned to a coordinate along the border of the digitized polygon or polyline. the markers we each bound with a popup displaying the title of the location, background information on the area, and a supplementary image. The markers were equipped with additional functionality to zoom to a predetermined level to showcase the digitized area.</p>
+    <div>
+      <img class="methimg" src="Images/s3.jpg" alt="Markers and Popups">
+    </div>
   </div>
 </div>
 
-<div class="grid3">
+<div class="grid">
   <div class="gridcontent">
-    <h1 class="homeSubHead" id="Documentation">Documentation</h1>
-    <p class="generalText">To support our client, we will prepare documentation regarding the methodology used to execute our analysis and visualizations to provide further context to the project. The web map will aim to be as user-friendly as possible, but to ensure it is effective in portraying the story and is an interactive tool for the public to use, documentation will provide our client, who has identified themselves as not being familiar with GIS technology, crucial background information.</p>
+    <h1 class="homeSubHead" id="Solution Screen Captures">Solution Screen Captures</h1>
+    <div>
+      <img class="methimg" src="Images/s4.jpg" alt="Solution Full">
+    </div>
+    <div>
+      <img class="methimg" src="Images/s5.JPG" alt="Solution Popup">
+    </div>
   </div>
+
 </div>
 
 <footer>
