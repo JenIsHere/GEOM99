@@ -244,7 +244,8 @@ li a:hover {
 	padding: 1vw;
 }
 .methimg {
-	width:60vw;
+	width:80vw;
 	height:100%;
 	text-align: center;
+	border: 10px;
 }
