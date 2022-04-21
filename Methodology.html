@@ -32,21 +32,21 @@
 <div class="grid">
   <div class="gridcontent">
     <h1 class="homeSubHead">Data Collection and Research</h1>
-    <p class="generalText"> The first and often the most crucial step to any project is to define the scope as well as acquiring relevant data to support further processes. For creation of Team JPC's solution, the Greenbelt data was gathered from Ontario GeoHub while the study of the 10 at-risk locations was conducted by the members with thorough research.</p>
-    <p class="generalText"> One of the initial challanges that the team faced was deciding on the open-source software to explore and use, with limited or none prior experience.</p>
+    <p class="generalText"> The first and often the most crucial step to any project is to define the scope as well as acquiring relevant data to support further processes. For creation of Team JPC's solution, the Greenbelt data was gathered from Ontario GeoHub while the collection of the 10 contested areas was conducted by the team members and their client at OHI.</p>
+    <p class="generalText"> One of the initial challanges that the team faced was deciding on the open-source software to explore and use, with limited or no prior experience.</p>
   </div>
 </div>
 
 <div class="grid2">
   <div class="gridcontent">
     <h1 class="homeSubHead">Creating a Basemap in Mapbox</h1>
-    <p class="generalText"> To create a visually appealing webmap, the team needed a good basemap. Being limited to open-source software, JPC decided to utilize Mapbox for creation of a basemap as per requirements. </p>
-    <p class="generalText"> After following a few tutorials, we were able to put together a basemap, or a style, as Mapbox defines it. Though this one didn't do any justice to our theme as it was created from a template which made it so that a lot of unnecessary data.</p>
+    <p class="generalText"> To create a visually appealing webmap, the team needed a good basemap. Being limited to open-source software, JPC decided to utilize Mapbox for creation of a basemap. </p>
+    <p class="generalText"> After following a few tutorials, we were able to put together a basemap, or a style, as Mapbox defines it. Though this one didn't do any justice to our theme as it was created from a template, it enabled the learning process allowing it to be further refined in later stages.</p>
     <div>
       <img class="methimg" src="Images/basemap1.png" alt="First basemap">
     </div>
-    <p class="generalText">Instead of making a basemap from an existing style template, it wasa decided that a style would be created from a blank template to limit the excess data.</p>
-    <p class="generalText"> With cartographic principles in mind, the team created a "style" which would make the viewer focus on the actual content of the layers to be added. This style contained colours which were easier on the eyes as well as elements that followed appropriate visual heirachy.</p>
+    <p class="generalText">Instead of making a basemap from an existing style template, it was decided that a style would be created from a blank template to limit the excess data being visualized.</p>
+    <p class="generalText"> With cartographic principles in mind, the team created a "style" which would make the viewer focus on the actual content of the layers to be added. This style contained colours which were easier on the eyes as well as elements that followed appropriate visual hierarchy.</p>
     <div>
       <img class="methimg" src="Images/basemap2.png" alt="Second basemap">
     </div>
@@ -55,13 +55,13 @@
     <div>
       <img class="methimg" src="Images/basemap3.png" alt="Second basemap with markers">
     </div>
-    <p class="generalText"> Following the same steps, the Greenbelt data downloaded from GeoHub was also uploaded as a geoJSON to be added to the basemap and provide a better context of where the Greenbelt lies.</p>
-    <p class="generalText">This layer is classified into the following: Niagara Escarpment, Oak Ridges Moraine Conservation Plan, Urban River Valley and Protected Countryside.</p>
+    <p class="generalText"> Following the same steps, the Greenbelt GeoJSON data was downloaded from GeoHub and uploaded to MapBox to be added to the basemap and provide a better understanding of where the Greenbelt lies.</p>
+    <p class="generalText">This layer was visualized based on the following greenbelt designations: Niagara Escarpment, Oak Ridges Moraine Conservation Plan, Urban River Valley and Protected Countryside.</p>
     <div>
       <img class="methimg" src="Images/greenbeltgeoJSON.jpg" alt="Greenbelt on basemap">
     </div>
     <p class="generalText">With successful implementation of markers and pop-ups, the group chose to explore more features to create an interactive experience for the viewer.</p>
-    <p class="generalText">As such, the team decided to tackle the task of creating a slideshow gallery in a marker tooltip, which would allow the user to switch between contextual images associated with the marker location. Here, we also tried to customise the markers with symbols and colours.</p>
+    <p class="generalText">As such, the team decided to tackle the task of creating a slideshow gallery in a marker tooltip, which would allow the user to switch between contextual images associated with the marker location. Here, we also tried to customize the markers with symbols and colours.</p>
     <div>
       <img class="methimg" src="Images/basemap4.png" alt="Slideshow gallery">
     </div>
@@ -72,18 +72,18 @@
 <div class="grid">
   <div class="gridcontent">
     <h1 class="homeSubHead">Digitizing the hotspot areas</h1>
-    <p class="generalText">The digitizing component of this project will support the leaflet map on the solution page, which illustrates the polygons and lines of the proposed development zones which might harm the Greenbelt and Whitebelt.</p>
-    <p class="generalText">Digitizing was originally done in the JOSM (Java OpenStreetMap) editor, but due to incompatibility with mapbox and leaflet,</p>
-    <p class="generalText">Furthermore, JOSM has certain difficulties with polygon fill colour and file save format, preventing it from being identifiable from the basemap and other layer, as a result, it cannot be used in Mapbox or Leaflet.</p>
+    <p class="generalText">The digitizing component of this project will support the leaflet map on the solution page, which illustrates the polygons and lines of the contested areas which might harm either the Greenbelt or Whitebelt.</p>
+    <p class="generalText">Digitizing was originally done in the JOSM (Java OpenStreetMap) editor, but due to incompatibility with Mapbox and leaflet, it was not implemented into the final solution</p>
+    <p class="generalText">Furthermore, JOSM has certain difficulties with polygon fill colour and file save format, preventing it from being identifiable from the basemap and other layers, as a result, it cannot be used in Mapbox or Leaflet.</p>
     <div>
       <img class="methimg" src="Images/JOSM.png" alt="JOSM editor made polygon">
     </div>
-    <p class="generalText">The above picture only showed highligthed area when it is selected or certain presets were used.</p>
-    <p class="generalText"> Eventually, to proceed with digitization Mapbox was utilised, which is plainly visible on the leaflet map with hotspot area markers.</p>
+    <p class="generalText">The above picture only showed the highligthed area was selected or certain presets were used.</p>
+    <p class="generalText"> Eventually, to proceed with digitization, Mapbox was used, which is easy to identify on the leaflet map.</p>
     <div>
       <img class="methimg" src="Images/Mapbox.png" alt="Mapbox made polygons">
     </div>
-    <p class="generalText">All contested areas were digitised in Mapbox for efficiency of work and compatibility which made it easier to merge into the leaflet map.</p>
+    <p class="generalText">All contested areas were digitized in Mapbox for efficiency of work and compatibility, which simplified the merge into the leaflet map.</p>
   </div>
 </div>
 
@@ -91,15 +91,15 @@
   <div class="gridcontent">
     <h1 class="homeSubHead">Interactive Web Map</h1>
     <p class="generalText">To combine the collected data, newly created base map and the digitized hot spots, we utilized LeafletJS. To initiate Leaflet within our code and before bringing in a map, we needed to include both the Leaflet CSS file and the Leaflet Java Script references to the document.</p>
-    <p class="generalText">The map set up only includes a few simple steps. First the creation of a map div element, then for a variable 'map' setting the view and zoom level for the initial display. Incorporating the base map is done through initializing a tile layer, in this case our MapBox base map, specifying the tile size and providing an access token.</p>
+    <p class="generalText">The map set up only includes a few simple steps. First the creation of a map div element, then for a variable 'map' setting the view and zoom level for the initial display. Incorporating the base map is done through initializing a tile layer, in this case our Mapbox style (basemap), specifying the tile size and providing a Mapbox access token.</p>
     <div>
       <img class="methimg" src="Images/s1.jpg" alt="Initializing Basemap">
     </div>
-    <p class="generalText">To visualize our digitized hotspots we utilized GeoJSON as well as LeafletJS. A GeoJSON document was created and properly referenced within our solutions HTML page. Each hotspot was assigned to a variable, specifying it's properties, style, type, and coordinates. Those variables were then added to the map to visualize the areas.</p>
+    <p class="generalText">To visualize our digitized hotspots we utilized GeoJSON as well as LeafletJS. A GeoJSON document was created and properly referenced within our solutions HTML page. Each hotspot was assigned to a variable, specifying its properties, style, type, and coordinates. Those variables were then added to the map to visualize the areas.</p>
     <div>
       <img class="methimg" src="Images/s2.JPG" alt="GeoJSON">
     </div>
-    <p class="generalText">To add detailed information for each hot spot we utilized Markers and Popups. Each marker was assigned to a coordinate along the border of the digitized polygon or polyline. the markers we each bound with a popup displaying the title of the location, background information on the area, and a supplementary image. The markers were equipped with additional functionality to zoom to a predetermined level to showcase the digitized area.</p>
+    <p class="generalText">To add detailed information for each hotspot we utilized Markers and Popups. Each marker was assigned to a coordinate along the border of the digitized polygon or polyline. The markers were each bound with a popup displaying the title of the location, background information on the area, and a supplementary image. The markers were equipped with additional functionality to zoom to a predetermined level to showcase the digitized area.</p>
     <div>
       <img class="methimg" src="Images/s3.jpg" alt="Markers and Popups">
     </div>
