@@ -189,7 +189,7 @@ var bypass = {
     }
 };
 
-var talims = {
+var talisman = {
     "type": "Feature",
     "properties": { 
         "style": {        
@@ -232,7 +232,7 @@ var talims = {
     }
 };
 
-var verain = {
+var veraine = {
     "type": "Feature",
     "properties": { 
         "style": {        
